@@ -14,11 +14,13 @@ public class LineasEncontradasLOC implements ContadorPorLinea{
 			System.out.println(line);
 		}
 	}
-	
 	@Override
 	public Integer getNumLineas() {
 		
 		return ContadorLinea;
 	}
-
+	@Override
+	public void setContador() {
+    	ContadorLinea=0;
+    }
 }

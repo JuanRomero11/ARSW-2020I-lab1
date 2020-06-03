@@ -14,5 +14,9 @@ public class LineasFisicasPHY implements ContadorPorLinea{
     public Integer getNumLineas() {
         return ContadorLinea;
     }
+    @Override
+    public void setContador() {
+    	ContadorLinea=0;
+    }
     
 }

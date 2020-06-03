@@ -17,8 +17,8 @@ public class AppTest
      */
     public void testApp()
     {
-        String[] args = {"loc","src/test/resources/App.java"};
-        App.main(args);
+         String[] args = {"loc","src/main/java/edu/escuelaing/arsw/intro/linecounter"};
+         App.main(args);
         
     }
 }
