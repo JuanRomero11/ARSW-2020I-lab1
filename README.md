@@ -68,6 +68,7 @@ Para ejecutar las pruebas sencillamente se utliza el comando
           
 Despues de ello se ejecutan todas las pruebas realizadas 
 
+![alt text](https://github.com/JuanRomero11/ARSW-2020I-lab1/blob/master/imagenes/PruebamvnPackage.PNG)
 
 Detallaremos mas las pruebas. En primera parte se realizaron varias pruebas entre ellas se puede decir que hay dos unitarias, en las que en cada una se prueba como tal la case App que se encuentra en el paquete edu.escuelaing.arsw.intro, en la cual le pasamos como parámetro una lista de longitud 2, la cual en la primera posición tiene una de las dos opciones “loc” o “phy” y en la segunda posición se encuentra una dirección del directorio en el que quiero encontrar todos los archivos y contar las líneas según la elección en este primer caso del testAppLoc se dio la dirección del directorio donde se encuentran las 4 clases que están dentro de este, además en la prueba siguiente de testAppPHY se encuentra la dirección donde se encuentra la clase App y el directorio siguiente “linecounter”, estas muestran un resultado satisfactorio y además imprimen los archivos encontrados y el numero de líneas de cada uno
 
