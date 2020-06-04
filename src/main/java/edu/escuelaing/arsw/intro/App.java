@@ -10,23 +10,25 @@ import edu.escuelaing.arsw.intro.linecounter.LineasFisicasPHY;
 
 public class App 
 {
+	/**
+	 * La funcion del main es identificar si quiere leer las lineas fisicas o lineas de codigo 
+	 * de un directorio en especifico
+	 * 
+	 * @param args donde la primera posicion es el tipo de conteo que se quiere realizar ya sea lineas fisicas o
+	 * lineas de codigo y la segunda posicion de la lista es la direccion de un directorio o un archivo 
+	 */
     public static void main(String[] args)
     {
-        String file = args[1];
         lectorArchivo fr= new lectorArchivo();
         ContadorPorLinea lc = null;
         File dir = new File(args[1]);
-        String[] files = dir.list();
-        
         if(args[0].equals("phy")) {
         	lc = new LineasFisicasPHY(); 
         }else if(args[0].equals("loc")){
         	lc = new LineasEncontradasLOC(); 
         }
         try {
-        	// fr.leerArchivo(file, lc);
-        	fr.addFiles(null , dir, lc, args[1]);
-            
+        	fr.addFiles(null , dir, lc, args[1]); 
         }catch(Exception ex) {
         	throw new UnsupportedOperationException("Archivo no encontrado");
         }
