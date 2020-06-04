@@ -83,3 +83,8 @@ Y por ultimo se realizaron otras dos pruebas de tipo integración ya que aquí m
 
 ![alt text](https://github.com/JuanRomero11/ARSW-2020I-lab1/blob/master/imagenes/CuartaPrueba.png)
 ![alt text](https://github.com/JuanRomero11/ARSW-2020I-lab1/blob/master/imagenes/CuartaPrueba2.png)
+
+## Autor
+Juan Guillermo Romero 
+## License
+Este codigo tiene una licencia Apache License 2.0 la cual se detalla en https://github.com/JuanRomero11/ARSW-2020I-lab1/blob/master/LICENSE.txt
