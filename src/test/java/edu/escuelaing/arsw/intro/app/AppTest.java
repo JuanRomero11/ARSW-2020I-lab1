@@ -40,10 +40,10 @@ public class AppTest
     /**
      * En esta prueba, se confirmo que fallara si ingresa otra opcion a parte de phy o loc, se puede considerar esta prueba como unitaria
      */
-     public void testTineQueFallarApp() {
-     	 String[] args = {"otro","src/main/java/edu/escuelaing/arsw/intro/linecounter"};
-          App.main(args);
-     }
+     // public void testTineQueFallarApp() {
+     	//  String[] args = {"otro","src/main/java/edu/escuelaing/arsw/intro/linecounter"};
+        //   App.main(args);
+    //  }
     /**
      * En esta prueba, se confirmo que sirviera con la opcion phy, pero de forma en la que 
      * se observara que no botara ningun error a la hora de manejar las otras clases, esta se puede decir que es una Prueba de integración 
@@ -62,12 +62,12 @@ public class AppTest
      * se observara que no botara ningun error a la hora de manejar las otras clases, esta se puede decir que es una Prueba de integración 
      * 
      */
-    public void testTieneQueFallarAddFiles() {
-    	File dir = new File("src/test/resources");
-        lectorArchivo fr= new lectorArchivo();
-        ArrayList<File> f=new ArrayList<File>();
-		fr.addFiles(f , dir, null, "src/test/resources");	
-    }
+   // public void testTieneQueFallarAddFiles() {
+    //	File dir = new File("src/test/resources");
+       // lectorArchivo fr= new lectorArchivo();
+      //  ArrayList<File> f=new ArrayList<File>();
+		//fr.addFiles(f , dir, null, "src/test/resources");	
+    // }
     /**
      * En esta prueba, se confirmo que sirviera con la opcion loc, pero de forma en la que 
      * se observara que no botara ningun error a la hora de manejar las otras clases, esta se puede decir que es una Prueba de integración 
